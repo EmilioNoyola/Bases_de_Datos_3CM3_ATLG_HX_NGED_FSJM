@@ -1,4 +1,11 @@
 package com.hospital.auth.model;
 
-public class Role {
+//simulacion de roles que existe en el sistema
+public enum Role {
+    PATIENT,
+    DOCTOR,
+    RECEPTIONIST,
+    PHARMACIST,
+    CASHIER,
+    SECURITY_ADMIN
 }
