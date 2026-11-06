@@ -1,0 +1,92 @@
+name: hospital-arboleda
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:?Define MSSQL_SA_PASSWORD en tu terminal}"
+    ports:
+      - "127.0.0.1:14330:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - hospital-net
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - >-
+          SQLCMDPASSWORD="$$MSSQL_SA_PASSWORD"
+          /opt/mssql-tools18/bin/sqlcmd
+          -S localhost -U sa -C -b -Q "SELECT 1;" -o /dev/null
+      interval: 15s
+      timeout: 10s
+      retries: 12
+      start_period: 60s
+
+  redis:
+    image: redis:8-alpine
+    environment:
+      REDIS_PASSWORD: "${REDIS_PASSWORD:?Define REDIS_PASSWORD en tu terminal}"
+    command:
+      - redis-server
+      - --appendonly
+      - "yes"
+      - --appendfsync
+      - everysec
+      - --maxmemory
+      - 256mb
+      - --maxmemory-policy
+      - noeviction
+      - --requirepass
+      - "${REDIS_PASSWORD:?Define REDIS_PASSWORD en tu terminal}"
+    ports:
+      - "127.0.0.1:63790:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - hospital-net
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - 'REDISCLI_AUTH="$$REDIS_PASSWORD" redis-cli ping | grep -qx PONG'
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  rabbitmq:
+    image: rabbitmq:4-management
+    hostname: arboleda-rabbitmq-v2
+    environment:
+      RABBITMQ_DEFAULT_USER: arboleda_local
+      RABBITMQ_DEFAULT_PASS: "${RABBITMQ_PASSWORD:?Define RABBITMQ_PASSWORD en tu terminal}"
+      RABBITMQ_DEFAULT_VHOST: hospital_arboleda
+    ports:
+      - "127.0.0.1:56730:5672"
+      - "127.0.0.1:15673:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - hospital-net
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - rabbitmq-diagnostics -q check_running && rabbitmq-diagnostics -q check_port_connectivity
+      interval: 30s
+      timeout: 15s
+      retries: 5
+      start_period: 60s
+
+volumes:
+  sqlserver_data:
+  redis_data:
+  rabbitmq_data:
+
+networks:
+  hospital-net:
+    driver: bridge
