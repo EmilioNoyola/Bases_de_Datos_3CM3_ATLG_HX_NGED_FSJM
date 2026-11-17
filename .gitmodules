@@ -1,0 +1,4 @@
+[submodule "Hospital-Arboleda"]
+	path = 3CM3_NGED_( 05_Proyectos )_BD/3CM3_ATLG_FSJM_HX_NGED_( Proyecto_Hospital_Arboleda )_BD
+	url = https://github.com/EmilioNoyola/Hospital-Arboleda.git
+	branch = main
