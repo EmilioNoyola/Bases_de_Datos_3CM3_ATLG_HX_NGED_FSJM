@@ -1,0 +1,1488 @@
+﻿marca
+--------------
+@@Q|7b4f5830e1
+
+(1 fila afectada)
+
+tipoAvion                      fabricante
+------------------------------ ------------------------------
+787-9                          Boeing
+A321neo                        Airbus
+
+(2 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|147f5f3cd1
+
+(1 fila afectada)
+
+matricula  fabricante
+---------- ------------------------------
+XA-AZA     Boeing
+XA-AZB     Boeing
+XA-AZC     Airbus
+XA-CNA     Embraer
+XA-VMA     Airbus
+XA-VMB     Airbus
+
+(6 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|6febf03bb3
+
+(1 fila afectada)
+
+clienteId
+-----------
+8
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|c6b9f3b6eb
+
+(1 fila afectada)
+
+clienteId
+-----------
+1
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|7c11d6a866
+
+(1 fila afectada)
+
+matricula
+----------
+XA-AZC
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|6d28f95004
+
+(1 fila afectada)
+
+idTipoAvion tipoAvion                      fabricante                     numAsientos
+----------- ------------------------------ ------------------------------ -----------
+1           A320neo                        Airbus                         186
+2           737-800                        Boeing                         189
+3           787-9                          Boeing                         274
+4           A321neo                        Airbus                         230
+5           E190                           Embraer                        100
+
+(5 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|16c83299b9
+
+(1 fila afectada)
+
+Matrícula  fabricado  aerolineaId
+---------- ---------- -----------
+XA-AZA     2017-05-10 1
+XA-AZB     2012-03-22 1
+XA-AZC     2023-02-14 1
+XA-CNA     2010-08-05 3
+XA-VMA     2019-11-30 2
+XA-VMB     2021-06-18 2
+
+(6 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|cac87c4f56
+
+(1 fila afectada)
+
+tipoAvion                      fabricante                     numAsientos
+------------------------------ ------------------------------ -----------
+737-800                        Boeing                         189
+E190                           Embraer                        100
+
+(2 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|a62e872a25
+
+(1 fila afectada)
+
+nombre                                   paterno                                  correo
+---------------------------------------- ---------------------------------------- --------------------------------------------------------------------------------
+Carlos                                   Méndez                                   cmendez@correo.mx
+Andrés                                   Molina                                   amolina@correo.mx
+Hugo                                     Mendoza                                  hugo.ms@correo.mx
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|022f511daa
+
+(1 fila afectada)
+
+idEmpleado  idPersona   aerolineaId sueldo
+----------- ----------- ----------- ---------------------------------------
+1           4           1           110000.00
+7           10          2           105000.00
+10          1           3           39000.00
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|dd44318a50
+
+(1 fila afectada)
+
+colonia
+------------------------------------------------------------
+Cuauhtémoc
+Cuauhtémoc
+Crédito Constructor
+Lindavista
+Juárez
+Santa Úrsula Coapa
+Cuauhtémoc
+Santa Cruz Atoyac
+
+(8 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|d5c4f5c57f
+
+(1 fila afectada)
+
+colonia
+------------------------------------------------------------
+Crédito Constructor
+Cuauhtémoc
+Juárez
+Lindavista
+Santa Cruz Atoyac
+Santa Úrsula Coapa
+
+(6 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|712913673d
+
+(1 fila afectada)
+
+origen destino
+------ -------
+GDL    CUN
+GDL    TIJ
+MEX    CUN
+MEX    LAX
+MEX    MAD
+MTY    MEX
+TIJ    MEX
+
+(7 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|09ba51577d
+
+(1 fila afectada)
+
+idEmpleado  aerolineaId sueldo
+----------- ----------- ---------------------------------------
+1           1           110000.00
+7           2           105000.00
+2           1           92000.00
+8           2           85000.00
+3           1           68000.00
+4           1           45000.00
+10          3           39000.00
+5           1           24000.00
+9           2           16500.00
+6           1           15000.00
+
+(10 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|4c8204f972
+
+(1 fila afectada)
+
+idVuelo     origen destino precioPorAsiento
+----------- ------ ------- ---------------------------------------
+2           MEX    MAD     15800.00
+6           MEX    LAX     6200.00
+5           MEX    CUN     3900.00
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|9064f2eb87
+
+(1 fila afectada)
+
+idPersona   conMas                                                                                                                     conConcat
+----------- -------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------
+1           Ana López Ruiz                                                                                                             Ana López Ruiz
+2           Carlos Méndez Soto                                                                                                         Carlos Méndez Soto
+16          NULL                                                                                                                       Tomás Aguilar 
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|1568b5ae63
+
+(1 fila afectada)
+
+leyenda
+------------------------------------------------------------------------------------------
+El avión XA-AZA (787-9) tiene una capacidad de 274 asientos
+El avión XA-AZC (A321neo) tiene una capacidad de 230 asientos
+El avión XA-VMB (A321neo) tiene una capacidad de 230 asientos
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|8a10dde784
+
+(1 fila afectada)
+
+direccionId calle                                                        numero numeroEntero
+----------- ------------------------------------------------------------ ------ ------------
+1           Río Tigris                                                   110    110
+2           Río Tigris                                                   45     45
+3           Av. Insurgentes Sur                                          160    160
+4           Av. Juan de Dios Bátiz                                       S/N    NULL
+5           Paseo de la Reforma                                          222    222
+6           Calz. de Tlalpan                                             300    300
+7           Río Lerma                                                    18     18
+8           Av. Universidad                                              940    940
+
+(8 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|a97011c8ba
+
+(1 fila afectada)
+
+nombre                                   paterno                                  correo                                                                           contacto
+---------------------------------------- ---------------------------------------- -------------------------------------------------------------------------------- --------------------------------------------------------------------------------
+Laura                                    Ríos                                     sin correo                                                                       5534567890
+Jorge                                    Pérez                                    jperez@correo.mx                                                                 5545678901
+Sofía                                    Torres                                   sofia.t@correo.mx                                                                sofia.t@correo.mx
+Miguel                                   Cruz                                     sin correo                                                                       5556789012
+
+(4 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|b452b21b01
+
+(1 fila afectada)
+
+tipoAvion                      numAsientos categoria
+------------------------------ ----------- ----------------
+787-9                          274         Fuselaje ancho
+A321neo                        230         Fuselaje angosto
+737-800                        189         Fuselaje angosto
+A320neo                        186         Fuselaje angosto
+E190                           100         Regional
+
+(5 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|9112043db3
+
+(1 fila afectada)
+
+idVuelo     matricula  origen destino fechaVuelo              precioPorAsiento
+----------- ---------- ------ ------- ----------------------- ---------------------------------------
+3           XA-VMA     GDL    TIJ     2014-12-05 06:10:00.000 1890.00
+8           XA-VMA     GDL    CUN     2014-12-30 12:00:00.000 2990.00
+1           XA-AZB     MEX    CUN     2014-12-20 08:30:00.000 3500.00
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|6be2b55845
+
+(1 fila afectada)
+
+idVenta     idCliente   fechaCompra numAsientos idVuelo     idVendedor
+----------- ----------- ----------- ----------- ----------- -----------
+1           1           2014-11-15  2           1           6
+2           2           2014-11-30  1           1           6
+3           3           2014-10-01  4           2           6
+4           5           2014-11-20  3           3           9
+8           3           2014-12-01  2           8           9
+10          5           2013-12-20  1           1           6
+
+(6 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|78458abfdb
+
+(1 fila afectada)
+
+idEmpleado  anioIngreso antiguedad
+----------- ----------- -----------
+7           2010        16
+8           2012        14
+9           2023        3
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|6791a2991f
+
+(1 fila afectada)
+
+personas    conCorreo   direccionesUsadas laMayor    laMenor
+----------- ----------- ----------------- ---------- ----------
+17          13          8                 1965-06-06 2001-01-30
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|6fb3c3381e
+
+(1 fila afectada)
+
+asientosVendidos promedioPorVenta                        ventas
+---------------- --------------------------------------- -----------
+19               1.900000                                10
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|8454a0b2a6
+
+(1 fila afectada)
+
+aerolineaId empleados   nomina                                  promedio
+----------- ----------- --------------------------------------- ---------------------------------------
+1           6           354000.00                               59000.000000
+2           3           206500.00                               68833.333333
+3           1           39000.00                                39000.000000
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|1111d80b03
+
+(1 fila afectada)
+
+origen destino asientos    ingreso
+------ ------- ----------- ---------------------------------------
+MEX    MAD     4           63200.00
+MEX    CUN     6           21800.00
+MEX    LAX     2           12400.00
+GDL    CUN     2           5980.00
+GDL    TIJ     3           5670.00
+TIJ    MEX     2           5500.00
+
+(6 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|1a587f9db5
+
+(1 fila afectada)
+
+idCliente   compras     asientos
+----------- ----------- -----------
+3           2           6
+5           2           4
+1           2           4
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|b9bffd0478
+
+(1 fila afectada)
+
+idCliente   compras2014
+----------- -----------
+3           2
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|d3f188aee5
+
+(1 fila afectada)
+
+aerolinea                                          cabina      sueldoMayor
+-------------------------------------------------- ----------- ---------------------------------------
+Aeroazteca                                         3           92000.00
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|35cd2b6694
+
+(1 fila afectada)
+
+aerolineaId aviones     conMantenimiento masReciente
+----------- ----------- ---------------- -----------
+1           3           3                2026-10-02
+2           2           1                2026-09-10
+3           1           1                2025-12-01
+Warning: Null value is eliminated by an aggregate or other SET operation.
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|373cd8692c
+
+(1 fila afectada)
+
+matricula  tipoAvion
+---------- ------------------------------
+XA-VMA     A320neo
+XA-VMB     A321neo
+
+(2 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|e6f4df0656
+
+(1 fila afectada)
+
+matricula  tipoAvion
+---------- ------------------------------
+XA-VMA     A320neo
+XA-VMB     A321neo
+
+(2 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|5ea767aa22
+
+(1 fila afectada)
+
+idVenta     idVuelo     origen destino numAsientos
+----------- ----------- ------ ------- -----------
+1           1           MEX    CUN     2
+2           1           MEX    CUN     1
+10          1           MEX    CUN     1
+3           2           MEX    MAD     4
+4           3           GDL    TIJ     3
+5           5           MEX    CUN     2
+6           6           MEX    LAX     1
+9           6           MEX    LAX     1
+7           7           TIJ    MEX     2
+8           8           GDL    CUN     2
+
+(10 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|a1fc76df8b
+
+(1 fila afectada)
+
+idVuelo     origen destino idVenta     numAsientos
+----------- ------ ------- ----------- -----------
+1           MEX    CUN     1           2
+1           MEX    CUN     2           1
+1           MEX    CUN     10          1
+2           MEX    MAD     3           4
+3           GDL    TIJ     4           3
+4           MTY    MEX     NULL        NULL
+5           MEX    CUN     5           2
+6           MEX    LAX     6           1
+6           MEX    LAX     9           1
+7           TIJ    MEX     7           2
+8           GDL    CUN     8           2
+
+(11 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|72ea6015bd
+
+(1 fila afectada)
+
+idVuelo     origen destino fechaVuelo
+----------- ------ ------- -----------------------
+4           MTY    MEX     2014-11-28 14:00:00.000
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|62664d5226
+
+(1 fila afectada)
+
+idPersona   nombre                                   direccionId calle
+----------- ---------------------------------------- ----------- ------------------------------------------------------------
+16          Tomás                                    NULL        NULL
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|11dc9a1ccd
+
+(1 fila afectada)
+
+nombre                                             tipoCliente
+-------------------------------------------------- --------------------
+Aeroazteca                                         Frecuente
+Volamex                                            Frecuente
+Cielo Norte                                        Frecuente
+Aeroazteca                                         Ocasional
+Volamex                                            Ocasional
+Cielo Norte                                        Ocasional
+Aeroazteca                                         Corporativo
+Volamex                                            Corporativo
+Cielo Norte                                        Corporativo
+
+(9 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|0536db8c7d
+
+(1 fila afectada)
+
+nombre                                   paterno                                  aerolinea                                          sueldoMaximo                            sueldo
+---------------------------------------- ---------------------------------------- -------------------------------------------------- --------------------------------------- ---------------------------------------
+Carlos                                   Méndez                                   Aeroazteca                                         95000.00                                92000.00
+Diego                                    Herrera                                  Volamex                                            95000.00                                85000.00
+Laura                                    Ríos                                     Aeroazteca                                         95000.00                                68000.00
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|5378065cd2
+
+(1 fila afectada)
+
+nombre                                   paterno                                  calle                                                        numero
+---------------------------------------- ---------------------------------------- ------------------------------------------------------------ ------
+Laura                                    Ríos                                     Río Tigris                                                   45
+Paola                                    Núñez                                    Río Tigris                                                   110
+Ana                                      López                                    Río Tigris                                                   110
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|f6d7781187
+
+(1 fila afectada)
+
+idEmpleado  empleado                                                                          idJefe      jefe
+----------- --------------------------------------------------------------------------------- ----------- ---------------------------------------------------------------------------------
+1           Jorge Pérez                                                                       NULL        NULL
+2           Carlos Méndez                                                                     1           Jorge Pérez
+3           Laura Ríos                                                                        1           Jorge Pérez
+4           Miguel Cruz                                                                       2           Carlos Méndez
+5           Sofía Torres                                                                      2           Carlos Méndez
+6           Valeria Ortiz                                                                     1           Jorge Pérez
+7           Ricardo Salinas                                                                   NULL        NULL
+8           Diego Herrera                                                                     7           Ricardo Salinas
+9           Paola Núñez                                                                       7           Ricardo Salinas
+10          Ana López                                                                         NULL        NULL
+
+(10 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|da0d7aa17d
+
+(1 fila afectada)
+
+nombre                                   paterno                                  materno                                  direccionId
+---------------------------------------- ---------------------------------------- ---------------------------------------- -----------
+Laura                                    Ríos                                     Vega                                     2
+Sofía                                    Torres                                   Gil                                      7
+Paola                                    Núñez                                    Lara                                     1
+Ana                                      López                                    Ruiz                                     1
+
+(4 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|44c45d7921
+
+(1 fila afectada)
+
+idPersona
+-----------
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+
+(17 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|d8c2efd103
+
+(1 fila afectada)
+
+idPersona
+-----------
+1
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|6d2ea234d5
+
+(1 fila afectada)
+
+personaId
+-----------
+11
+12
+13
+14
+15
+16
+17
+
+(7 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|ca05c25042
+
+(1 fila afectada)
+
+nombre                                   paterno                                  rol
+---------------------------------------- ---------------------------------------- --------
+Ana                                      López                                    Empleado
+Mariana                                  Flores                                   Cliente
+
+(2 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|1e484d8d06
+
+(1 fila afectada)
+
+idEmpleado  aerolineaId sueldo
+----------- ----------- ---------------------------------------
+1           1           110000.00
+7           2           105000.00
+2           1           92000.00
+8           2           85000.00
+3           1           68000.00
+
+(5 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|21e0b96a28
+
+(1 fila afectada)
+
+tipoAvion                      fabricante                     numAsientos
+------------------------------ ------------------------------ -----------
+787-9                          Boeing                         274
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|17c65acf41
+
+(1 fila afectada)
+
+matricula  idTipoAvion
+---------- -----------
+XA-AZA     3
+XA-AZB     2
+XA-AZC     4
+XA-CNA     5
+XA-VMA     1
+XA-VMB     4
+
+(6 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|bfd83abcce
+
+(1 fila afectada)
+
+idPersona   nombre                                   paterno
+----------- ---------------------------------------- ----------------------------------------
+
+(0 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|82cb0ec783
+
+(1 fila afectada)
+
+idEmpleado
+-----------
+
+(0 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|d064fbb173
+
+(1 fila afectada)
+
+idEmpleado
+-----------
+3
+4
+5
+6
+8
+9
+10
+
+(7 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|47c1914dd3
+
+(1 fila afectada)
+
+idEmpleado  aerolineaId sueldo
+----------- ----------- ---------------------------------------
+1           1           110000.00
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|4ceb46bae3
+
+(1 fila afectada)
+
+idCliente   asientos
+----------- -----------
+3           6
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|12550d3d5c
+
+(1 fila afectada)
+
+idEmpleado  aerolineaId sueldo
+----------- ----------- ---------------------------------------
+1           1           110000.00
+2           1           92000.00
+3           1           68000.00
+7           2           105000.00
+8           2           85000.00
+
+(5 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|b5156ecd57
+
+(1 fila afectada)
+
+clienteId   fechaRegistro
+----------- -------------
+1           2013-04-02
+2           2014-10-20
+3           2012-01-15
+4           2020-06-30
+5           2011-09-09
+6           2025-01-05
+7           2016-02-11
+
+(7 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|507f6157b9
+
+(1 fila afectada)
+
+clienteId   fechaRegistro
+----------- -------------
+8           2026-03-03
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|e25fbdde0d
+
+(1 fila afectada)
+
+idEmpleado
+-----------
+3
+4
+5
+6
+8
+9
+10
+
+(7 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|46b26eaed8
+
+(1 fila afectada)
+
+nombre
+--------------------------------------------------
+Aeroazteca
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|6029cbe9e7
+
+(1 fila afectada)
+
+piloto                                                                            aerolinea                                          sueldo
+--------------------------------------------------------------------------------- -------------------------------------------------- ---------------------------------------
+Carlos Méndez                                                                     Aeroazteca                                         92000.00
+Diego Herrera                                                                     Volamex                                            85000.00
+Laura Ríos                                                                        Aeroazteca                                         68000.00
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|cb6102b949
+
+(1 fila afectada)
+
+idVenta     fechaCompra cliente                                                                           ruta    numAsientos importe
+----------- ----------- --------------------------------------------------------------------------------- ------- ----------- ---------------------------------------
+6           2025-05-20  Andrés Molina                                                                     MEX-LAX 1           6200.00
+9           2025-06-10  Ana López                                                                         MEX-LAX 1           6200.00
+7           2026-10-01  Tomás Aguilar                                                                     TIJ-MEX 2           5500.00
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|ffe07d3c65
+
+(1 fila afectada)
+
+idEmpleado  empleado                                                                                                                           sueldo
+----------- ---------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------
+1           Jorge Pérez Luna                                                                                                                   110000.00
+2           Carlos Méndez Soto                                                                                                                 92000.00
+3           Laura Ríos Vega                                                                                                                    68000.00
+4           Miguel Cruz Díaz                                                                                                                   45000.00
+5           Sofía Torres Gil                                                                                                                   24000.00
+6           Valeria Ortiz Mora                                                                                                                 15000.00
+
+(6 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|b0ce0c006e
+
+(1 fila afectada)
+
+idVuelo     matricula  fechaVuelo              precioPorAsiento
+----------- ---------- ----------------------- ---------------------------------------
+1           XA-AZB     2014-12-20 08:30:00.000 3500.00
+5           XA-AZB     2015-12-19 08:30:00.000 3900.00
+
+(2 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|e92103a0b1
+
+(1 fila afectada)
+
+idAlumno    nombre                                                       promedio
+----------- ------------------------------------------------------------ ---------------------------------------
+1           Emilio Noyola                                                8.83
+
+(1 fila afectada)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|4a718112c7
+
+(1 fila afectada)
+
+nombre                                   aerolinea                                          sueldoMaximo
+---------------------------------------- -------------------------------------------------- ---------------------------------------
+Carlos                                   Aeroazteca                                         95000.00
+Diego                                    Volamex                                            95000.00
+Laura                                    Aeroazteca                                         95000.00
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|48e4a20627
+
+(1 fila afectada)
+
+leyenda
+-----------------------------------------------------------------------------
+El avión 787-9 tiene una capacidad de 274 asientos
+El avión A321neo tiene una capacidad de 230 asientos
+El avión A321neo tiene una capacidad de 230 asientos
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|58b89f5c00
+
+(1 fila afectada)
+
+idEmpleado  nombre                                   paterno                                  aerolineaId
+----------- ---------------------------------------- ---------------------------------------- -----------
+1           Jorge                                    Pérez                                    1
+7           Ricardo                                  Salinas                                  2
+10          Ana                                      López                                    3
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|4971c23de5
+
+(1 fila afectada)
+
+nombre                                   paterno                                  calle
+---------------------------------------- ---------------------------------------- ------------------------------------------------------------
+Laura                                    Ríos                                     Río Tigris
+Paola                                    Núñez                                    Río Tigris
+Ana                                      López                                    Río Tigris
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|feaab79839
+
+(1 fila afectada)
+
+idVuelo     matricula  origen destino fechaVuelo              precioPorAsiento
+----------- ---------- ------ ------- ----------------------- ---------------------------------------
+3           XA-VMA     GDL    TIJ     2014-12-05 06:10:00.000 1890.00
+8           XA-VMA     GDL    CUN     2014-12-30 12:00:00.000 2990.00
+1           XA-AZB     MEX    CUN     2014-12-20 08:30:00.000 3500.00
+
+(3 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|9e2a96c130
+
+(1 fila afectada)
+
+nombre                                             ingreso
+-------------------------------------------------- ---------------------------------------
+Aeroazteca                                         97400.00
+Volamex                                            17150.00
+
+(2 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+marca
+--------------
+@@Q|6ca5100352
+
+(1 fila afectada)
+
+matricula  tipoAvion                      fabricante                     ultimoMantenimiento
+---------- ------------------------------ ------------------------------ -------------------
+XA-CNA     E190                           Embraer                        2025-12-01
+XA-VMB     A321neo                        Airbus                         NULL
+
+(2 filas afectadas)
+
+marca
+-----
+@@END
+
+(1 fila afectada)
+
+
+Hora de finalización: 2026-11-07T01:41:17.4433096-06:00
