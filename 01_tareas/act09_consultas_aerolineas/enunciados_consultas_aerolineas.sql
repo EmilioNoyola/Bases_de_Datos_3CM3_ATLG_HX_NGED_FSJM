@@ -1,0 +1,35 @@
+--1.  Seleccionar la matrícula de todos los tipos de aviones con más de 200 asientos
+--2.  Seleccionar la matrícula de todos los tipos de aviones con más de 200 asientos, con la siguiente leyenda en un solo campo: "El avión" <tipo avión> "tiene una capacidad de " <num asientos> "asientos"
+--3.  Seleccionar el nombre, apellido paterno y apellido materno de todos los empleados de las aerolíneas
+--4.  Seleccionar el nombre, apellido paterno y apellido materno de todos los pilotos que ganan más de $40,000 (5 puntos)
+--5.  Seleccionar el nombre, apellido paterno y apellido materno de todos los empleados de las aerolíneas con la siguiente leyenda en un solo campo: "bienvenido, " <nombre completo de la persona> ", hoy es " <fecha actual>
+--6.  Seleccionar el nombre completo de todas las personas en la base de datos que cumplan años de Marzo a Octubre de 1980 y mostrarlo como "Felices " <edad> " años " <nombre completo> "!!!"
+--7.  mostrar la antigüedad en años de todos los aviones almacenados en la base de datos
+--8.  mostrar la fecha exacta del siguiente mantenimiento de los aviones tomando como referencia la fecha del último, ordenándolos por el que esté más próximo a vencer (5 puntos)
+--9.  mostrar el tiempo en días que falta para el mantenimiento de los aviones tomando como referencia la fecha del último (sumar 10 años), ordenándolos por el que esté más próximo a vencer(5 puntos)
+--10. mostrar el tiempo en días por el que se atrasó o adelantó el último mantenimiento de los aviones tomando como referencia la fecha de fabricación. (5 puntos)
+--11. mostrar todos los vuelos y ordenarlos por los que tengan estén más próximos y tengan más lugares vacíos
+--12. mostrar los vuelos que tengan un precio por asiento mayor a 1000 pesos, ordenarlos de manera ascendente
+--13. Mostrar todos los empleados que no tengan jefe
+--14. mostrar el día de la semana en que le toca mantenimiento a cada uno de los aviones
+--15. Mostra las aerolíneas extranjeras , con el texto, la aerolínea <nombre> es extranjera
+--16. Selecciona a los clientes que vivan en Av. 20 de noviembre y ordenalos de manera descendente por fecha de nacimiento.(5 puntos)
+--17. Selecciona al cliente tipo Oro que tenga más antigûedad de registro
+--18. Mostrar todas las ventas por vendedor sin importar la aerolínea  y calcular en pesos el porcentaje de comisión, mostrar id_vendedor, monto, ventas, comision_pesos
+--19. Selecciona todos los domicilios cuyo número de casa no sea numérico (5 puntos)
+--20. Selecciona el sueldo diario de los empleados considerando que todos los meses son de 30 días, agregar el alias "sueldo diario" y ordenarlo de manera descendente
+--21. Realiza una consulta a los tipos de clientes que muestre el siguiente texto "al ser cliente " <tipo cliente> " tienes un descuento de " <porcentaje descuento>
+--22. selecciona los vuelos del mes de diciembre de 2014 que cuesten menos de 4000 pesos y ordenalos de forma ascendente en costo
+--23. selecciona los clientes tipo oro que tengan menos de 5 años de antigûedad
+--24. muestra una lista de todos los tipos de aviones ordenandolos de manera ascendente por el nombre del fabricante y descendente por la cantidad de asientos
+--25. selecciona los tipos de empleado de vuelo con la siguiente leyenda "el tipo de empleado " + <nombre del tipo> + " requiere estar en vuelo"
+--26. selecciona los vuelos que se realizaron esta última semana
+--27. selecciona los vuelos que se compraron durante el último mes
+--28. selecciona a las personas cuya longitud del telefono no sea exactamente igual a 8
+--29. Seleccionar el nombre de todos los clientes Plata, que su fecha de registro sea del 2010 en adelante. (5 puntos)
+--30. selecciona el día de la semana en que saldrán todos los vuelos.
+--31. Calcular el sueldo promedio de los empleados por Aerolinea y mostrar la Aerolinea que más gana. (5 puntos)
+
+
+
+-- Todos los demás ejercicios valen 2.6 puntos
