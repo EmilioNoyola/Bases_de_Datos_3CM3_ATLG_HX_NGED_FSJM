@@ -292,6 +292,6 @@ GO
 
 -- Respaldo completo de la base de datos PRUEBA
 BACKUP DATABASE PRUEBA
-TO DISK = N'C:\Users\Public\Documents\PRUEBA.bak'
+TO DISK = N'C:\Users\Public\documents\prueba.bak'
 WITH FORMAT, INIT, NAME = N'PRUEBA - Respaldo completo', STATS = 10
 GO

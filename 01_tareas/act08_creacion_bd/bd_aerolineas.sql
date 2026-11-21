@@ -204,6 +204,6 @@ GO
 
 -- 17. Respaldo completo de la base de datos Aerolineas
 BACKUP DATABASE Aerolineas
-TO DISK = N'C:\Users\Public\Documents\Aerolineas.bak'
+TO DISK = N'C:\Users\Public\documents\aerolineas.bak'
 WITH FORMAT, INIT, NAME = N'Aerolineas - Respaldo completo', STATS = 10
 GO

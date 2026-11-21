@@ -2,7 +2,7 @@
    Objetos de programación de la base AEROLINEAS
    Vistas, procedimientos, funciones, disparadores y permisos
    que se explican en los capítulos 11 a 14 de la guía.
-   Requiere haber ejecutado antes 3CM3_NGED_( G06_01_Crear_Aerolineas )_BD.sql
+   Requiere haber ejecutado antes g06_01_crear_aerolineas.sql
    ============================================================ */
 USE Aerolineas;
 GO

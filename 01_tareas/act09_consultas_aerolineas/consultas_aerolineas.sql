@@ -1,8 +1,8 @@
 ﻿-- Actividad 9: Consultas a la base de datos Aerolineas
 -- Alumno: Noyola Gómez Emilio Damian | Grupo: 3CM3 | Bases de Datos
 
--- Datos: respaldo Aerolineas.bak proporcionado por la profesora, restaurado con:
--- RESTORE DATABASE Aerolineas FROM DISK = N'C:\Users\Public\Documents\Aerolineas_Profesora.bak'
+-- Datos: respaldo aerolineas.bak proporcionado por la profesora, restaurado con:
+-- RESTORE DATABASE Aerolineas FROM DISK = N'C:\Users\Public\documents\Aerolineas_Profesora.bak'
 --   WITH MOVE 'CIC_Aerolineas' TO N'...\DATA\Aerolineas.mdf',
 --        MOVE 'CIC_Aerolineas_log' TO N'...\DATA\Aerolineas_log.ldf', REPLACE
 
@@ -284,6 +284,6 @@ GO
 
 -- Respaldo completo de la base de datos Aerolineas
 BACKUP DATABASE Aerolineas
-TO DISK = N'C:\Users\Public\Documents\Aerolineas_Consultas.bak'
+TO DISK = N'C:\Users\Public\documents\aerolineas_consultas.bak'
 WITH FORMAT, INIT, NAME = N'Aerolineas - Respaldo con datos', STATS = 10
 GO
