@@ -52,3 +52,6 @@
 !.env.sample
 desktop.ini
 Thumbs.db
+
+# Los respaldos SQL de las actividades son entregables
+!**/[Aa]erolineas*.bak
