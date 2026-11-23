@@ -55,3 +55,5 @@ Thumbs.db
 
 # Los respaldos SQL de las actividades son entregables
 !**/[Aa]erolineas*.bak
+!/01_tareas/act08_creacion_bd/3CM3_08_RespaldoAerolineas_Noyola_EmilioDamian.bak
+!/01_tareas/act09_consultas_aerolineas/3CM3_09_RespaldoConsultasAerolineas_Noyola_EmilioDamian.bak

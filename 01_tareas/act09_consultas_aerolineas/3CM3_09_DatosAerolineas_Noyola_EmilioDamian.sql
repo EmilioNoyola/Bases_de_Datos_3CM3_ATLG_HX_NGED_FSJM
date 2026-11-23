@@ -1,6 +1,6 @@
 ﻿-- Actividad 9: Datos de prueba para la base de datos Aerolineas
 -- Alumno: Noyola Gómez Emilio Damian | Grupo: 3CM3 | Bases de Datos
--- Requiere la estructura creada en la Actividad 8 (bd_aerolineas.sql)
+-- Requiere la estructura creada en la Actividad 8 (3CM3_08_CreacionBDAerolineas_Noyola_EmilioDamian.sql)
 
 USE Aerolineas
 GO

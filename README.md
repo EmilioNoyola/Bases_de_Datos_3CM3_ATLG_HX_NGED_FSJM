@@ -18,7 +18,7 @@ Diseño de modelos de datos, normalización, álgebra relacional y prácticas de
 |---|---|
 | [Abrir el laboratorio SQL](02_guias/g06_laboratorio_sql/) | Guía y archivos de apoyo para practicar consultas. |
 | [Trabajar con Aerolíneas](01_tareas/act09_consultas_aerolineas/) | Consultas, reportes, restauración y respaldos. |
-| [Consultar la entrega de Hospital](05_proyectos/hospital_documentacion/) | Documentación académica del proyecto final. |
+| [Consultar el proyecto Hospital Arboleda](05_proyectos/hospital_arboleda/) | [Informes, demostraciones y anexos de las dos entregas](https://github.com/EmilioNoyola/Hospital-Arboleda/tree/main/output/3CM3_Hospital_Arboleda). |
 
 ## Programa de estudios
 
@@ -50,7 +50,7 @@ El programa describe el alcance de la asignatura. Las carpetas siguientes muestr
 | [Material de clase](04_material_clase/) · `04_material_clase` | Diapositivas de álgebra relacional en PDF y PowerPoint. |
 | [Proyecto final](05_proyectos/) · `05_proyectos` | Documentación y enlace al repositorio independiente de Hospital Arboleda. |
 
-Los números de actividad conservan la identificación de las entregas; las guías se distinguen por el prefijo `g` y las prácticas por `p` o `act`, según la materia.
+Los trabajos individuales del grupo 3CM3 llevan el número de actividad, el nombre de la actividad, el apellido paterno y los nombres del autor. Los trabajos del equipo 1 llevan `1` y las iniciales `ATLG_FSJM_HX_NGED`. En Hospital Arboleda, 01 y 02 identifican los avances del proyecto. Las actividades de origen conservan su número de clase.
 
 ## Uso del material
 
@@ -67,6 +67,14 @@ Utiliza Microsoft SQL Server y SQL Server Management Studio; `sqlcmd` es útil p
 Abre primero el reporte y el enunciado. Antes de ejecutar un `.sql`, revisa la base indicada por `USE`, las rutas y las instrucciones de creación, modificación o borrado. Las actividades son independientes: no hay un único script que deba ejecutar todo el repositorio.
 
 Los scripts de restauración usan `C:\Users\Public\Documents`, una ubicación accesible al servicio SQL Server en el entorno de clase. Ajusta esa ruta si trabajas en otro equipo; la cuenta del servicio debe poder leer el respaldo. Verificar o restaurar una copia de práctica evita sobrescribir una base que estés utilizando.
+
+En los reportes de las actividades 07 a 09 aparecen los nombres de archivo usados al tomar las capturas. Los anexos correspondientes se encuentran aquí.
+
+| Actividad | Script presentado | Respaldo generado |
+|---|---|---|
+| 07 | [consultas_basicas.sql](01_tareas/act07_consultas_basicas_sql/3CM3_07_ConsultasBasicasSQL_Noyola_EmilioDamian.sql) | `3CM3_07_RespaldoPrueba_Noyola_EmilioDamian.bak` (copia local) |
+| 08 | [bd_aerolineas.sql](01_tareas/act08_creacion_bd/3CM3_08_CreacionBDAerolineas_Noyola_EmilioDamian.sql) | [aerolineas.bak](01_tareas/act08_creacion_bd/3CM3_08_RespaldoAerolineas_Noyola_EmilioDamian.bak) |
+| 09 | [consultas_aerolineas.sql](01_tareas/act09_consultas_aerolineas/3CM3_09_ConsultasAerolineas_Noyola_EmilioDamian.sql) | [aerolineas_consultas.bak](01_tareas/act09_consultas_aerolineas/3CM3_09_RespaldoConsultasAerolineas_Noyola_EmilioDamian.bak) |
 
 ### Hospital Arboleda
 
